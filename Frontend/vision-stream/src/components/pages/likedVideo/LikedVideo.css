@@ -1,0 +1,54 @@
+.liked-videos-page 
+{
+    margin-left: 210px; 
+    padding: 20px;
+}
+
+.liked-videos-grid 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 20px;
+}
+
+.liked-video-item 
+{
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.liked-video-item img 
+{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.liked-video-item h3 
+{
+    margin: 10px 0 5px 0;
+}
+
+.liked-video-item p 
+{
+    font-size: 14px;
+    color: #666;
+}
+
+.liked-video-item a 
+{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #4444ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.liked-video-item a:hover 
+{
+    background-color: #3333cc;
+}
