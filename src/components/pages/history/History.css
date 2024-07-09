@@ -1,0 +1,55 @@
+.history-page 
+{
+margin-left: 240px; 
+padding: 20px;
+}
+
+.history-grid 
+{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+gap: 20px;
+}
+
+.history-item 
+{
+background-color: #f0f0f0;
+padding: 10px;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+
+.history-item img 
+{
+width: 100%;
+height: auto;
+border-radius: 8px;
+}
+
+.history-item h3 
+{
+margin: 10px 0 5px 0;
+}
+
+.history-item p 
+{
+font-size: 14px;
+color: #666;
+}
+
+.history-item a 
+{
+display: inline-block;
+margin-top: 10px;
+padding: 8px 12px;
+background-color: #4444ff;
+color: white;
+text-decoration: none;
+border-radius: 4px;
+}
+
+.history-item a:hover 
+{
+background-color: #3333cc;
+}
