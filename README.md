@@ -1,2 +1,0 @@
-# VisionStream
-Frontend Only
